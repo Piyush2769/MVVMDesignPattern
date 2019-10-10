@@ -5,6 +5,7 @@ import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.TextureView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.piyushmaheswari.mvvmdesignpattern.Interface.LoginResultCallback;
@@ -17,6 +18,7 @@ import es.dmoral.toasty.Toasty;
 public class MainActivity extends AppCompatActivity implements LoginResultCallback {
 
     TextureView t;
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
