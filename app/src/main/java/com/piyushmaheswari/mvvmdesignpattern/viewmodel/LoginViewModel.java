@@ -1,4 +1,4 @@
-package com.piyushmaheswari.mvvmdesignpattern.ViewModel;
+package com.piyushmaheswari.mvvmdesignpattern.viewmodel;
 
 import android.arch.lifecycle.ViewModel;
 import android.text.Editable;
